@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>JavaScript Form Validatio</title>
+<link rel='stylesheet' href='stylesheet3.css' type='text/css' />
+</head>
+<body>
+<h1>Registration Form</h1>
+<form name="registration" action="#">
+<ul>
+<li><label for="stdname">Student Name:</label></li>
+<li><input id="stdname" type="text" name="stdname" /></li>
+<li><label for="address">Address:</label></li>
+<li><input id="address"
+	type="text" name="address" /></li>
+<li><label for="emailid">Email Id:</label></li>
+<li><input id="emailid" type="text" name="emailid"></li>
+<li><label for="dob">Dob:</label></li>
+<li><input id="dob" type="date" name="dob" placeholder="dd/mm/yy"></li>
+<li><label id="branch">Branch:</label></li>
+<div>
+<li><input  class="radio" type="radio"  name="It" value="IT" /><span>Information Technology</span></li>
+<li><input  class="radio" type="radio"  name="Comp" value="Computer" /><span>Computer</span></li>
+<li><input  class="radio" type="radio"  name="Mech" value="Mechanical" /><span>Mechanical</span></li>
+<li><input  class="radio" type="radio"  name="Civ" value="Civil" /><span>Civil</span></li>
+<li><label>Hobbies:</label></li>
+<li><input class="checkbox" type="checkbox" name="co" value="Coding"><span>Coding</span></li>
+<li><input class="checkbox" type="checkbox" name="pl" value="Playing"><span>Playing</span></li>
+<li><input class="checkbox" type="checkbox" name="wt" value="Wrting"><span>Writing</span></li>
+<li><input class="checkbox" type="checkbox" name="tk" value="Trekking"><span>Trekking</span></li>
+<li><input id="submit" type="submit" name="submit" value="submit"></li>
+</ul>
+</form>
+<br>
+<div id="output"></div>
+<script src="script3.js"></script>
+</body>
+</html>
